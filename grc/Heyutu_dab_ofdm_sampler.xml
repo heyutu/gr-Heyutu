@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<block>
+  <name>dab_ofdm_sampler</name>
+  <key>Heyutu_dab_ofdm_sampler</key>
+  <category>Heyutu</category>
+  <import>import Heyutu</import>
+  <make>Heyutu.dab_ofdm_sampler($fft_length, $cp_length, $symbols_per_frame, $gap)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>FFT Length</name>
+    <key>fft_length</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>CP Length</name>
+    <key>cp_length</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Symbols per Frame</name>
+    <key>symbols_per_frame</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Gap</name>
+    <key>gap</key>
+    <type>int</type>
+  </param>
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <sink>
+    <name>time</name>
+    <type>float</type>
+  </sink>
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+  <source>
+    <name>time</name>
+    <type>float</type>
+  </source>
+</block>
