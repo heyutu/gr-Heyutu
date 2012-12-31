@@ -115,7 +115,7 @@ switch(d_state) {
 			std::cout<<"d_state = STATE_SYM"<<'\t'<<std::endl;
 	   		for(i = (index - d_symbol_length + 1); i <= index; i++) {
 	   		   *optr++ = iptr[i];
-	   		   std::cout<<++y<<"!!!!!!!!!!!!!!!"<<std::endl;
+//	   		   std::cout<<++y<<"!!!!!!!!!!!!!!!"<<std::endl;
 	   		}
 			d_state = STATE_SYM;
 //			consume_each(index - d_fft_length + 1);
@@ -134,7 +134,7 @@ switch(d_state) {
 	//	*optr++ = *iptr++;
 		*optr++ = iptr[index];
 		if (trigger[index]==1)
-			std::cout<<++x<<'\t'<<"*trigger == 1"<<std::endl;
+	//		std::cout<<++x<<'\t'<<"*trigger == 1"<<std::endl;
 	//	*o_trigger++ =  *trigger++;
 		*o_trigger++ = trigger[index];
 		index++;
