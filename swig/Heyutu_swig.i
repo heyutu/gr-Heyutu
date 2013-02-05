@@ -19,10 +19,14 @@
 #include "Heyutu_svZeroAdder_inv.h"
 #include "Heyutu_OFDM_Sampler.h"
 #include "Heyutu_dab_ofdm_sampler.h"
+#include "Heyutu_peak_detector_fb.h"
+#include "Heyutu_symbol_finder_ff.h"
 #include "Heyutu_OFDM_cyclic_deprefixer.h"
 #include "Heyutu_svZeroAdder_inv.h"
 #include "Heyutu_OFDM_Sampler.h"
 #include "Heyutu_dab_ofdm_sampler.h"
+#include "Heyutu_peak_detector_fb.h"
+#include "Heyutu_symbol_finder_ff.h"
 %}
 
 GR_SWIG_BLOCK_MAGIC(Heyutu,QPSK_Mapper_vbc);
@@ -54,3 +58,9 @@ GR_SWIG_BLOCK_MAGIC(Heyutu,OFDM_Sampler);
 
 //GR_SWIG_BLOCK_MAGIC(Heyutu,dab_ofdm_sampler);
 //%include "Heyutu_dab_ofdm_sampler.h"
+
+GR_SWIG_BLOCK_MAGIC(Heyutu,peak_detector_fb);
+%include "Heyutu_peak_detector_fb.h"
+
+GR_SWIG_BLOCK_MAGIC(Heyutu,symbol_finder_ff);
+%include "Heyutu_symbol_finder_ff.h"

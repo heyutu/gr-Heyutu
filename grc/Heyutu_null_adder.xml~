@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<block>
+  <name>Null Adder</name>
+  <key>Heyutu_null_adder</key>
+  <category>Heyutu</category>
+  <import>import Heyutu</import>
+  <make>Heyutu.null_adder($input_size, $output_size)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+	<param>
+		<name>Input Size</name>
+		<key>input_size</key>
+		<type>int</type>
+	</param>
+	<param>
+		<name>Output Size</name>
+		<key>output_size</key>
+		<type>int</type>
+	</param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+	<sink>
+		<name>in</name>
+		<type>complex</type>
+		<vlen>$input_size</vlen>
+	</sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+	<source>
+		<name>out</name>
+		<type>complex</type>
+		<vlen>$output_size</vlen>
+	</source>
+</block>

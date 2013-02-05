@@ -19,7 +19,7 @@
 # Setup library
 ########################################################################
 include(GrPlatform) #define LIB_SUFFIX
-add_library(gnuradio-Heyutu SHARED Heyutu_svZeroAdder.cc Heyutu_QPSK_Mapper_vbc.cc Heyutu_OFDM_Mapper_bcv.cc Heyutu_OFDM_cyclic_prefixer.cc Heyutu_null_adder.cc Heyutu_zero_adder.cc Heyutu_OFDM_cyclic_deprefixer.cc Heyutu_svZeroAdder_inv.cc Heyutu_OFDM_Sampler.cc)# Heyutu_dab_ofdm_sampler.cc )
+add_library(gnuradio-Heyutu SHARED Heyutu_svZeroAdder.cc Heyutu_QPSK_Mapper_vbc.cc Heyutu_OFDM_Mapper_bcv.cc Heyutu_OFDM_cyclic_prefixer.cc Heyutu_null_adder.cc Heyutu_zero_adder.cc Heyutu_OFDM_cyclic_deprefixer.cc Heyutu_svZeroAdder_inv.cc Heyutu_OFDM_Sampler.cc Heyutu_peak_detector_fb.cc Heyutu_symbol_finder_ff.cc)# Heyutu_dab_ofdm_sampler.cc )
 target_link_libraries(gnuradio-Heyutu ${Boost_LIBRARIES} ${GRUEL_LIBRARIES} ${GNURADIO_CORE_LIBRARIES})
 set_target_properties(gnuradio-Heyutu PROPERTIES DEFINE_SYMBOL "gnuradio_Heyutu_EXPORTS")
 
@@ -78,3 +78,10 @@ add_executable(qa_Heyutu_OFDM_Sampler qa_Heyutu_OFDM_Sampler.cc)
 target_link_libraries(qa_Heyutu_OFDM_Sampler gnuradio-Heyutu ${Boost_LIBRARIES})
 GR_ADD_TEST(qa_Heyutu_OFDM_Sampler qa_Heyutu_OFDM_Sampler)
 
+add_executable(qa_Heyutu_peak_detector_fb qa_Heyutu_peak_detector_fb.cc)
+target_link_libraries(qa_Heyutu_peak_detector_fb gnuradio-Heyutu ${Boost_LIBRARIES})
+GR_ADD_TEST(qa_Heyutu_peak_detector_fb qa_Heyutu_peak_detector_fb)
+
+add_executable(qa_Heyutu_symbol_finder_ff qa_Heyutu_symbol_finder_ff.cc)
+target_link_libraries(qa_Heyutu_symbol_finder_ff gnuradio-Heyutu ${Boost_LIBRARIES})
+GR_ADD_TEST(qa_Heyutu_symbol_finder_ff qa_Heyutu_symbol_finder_ff)

@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classHeyutu__OFDM__Mapper__bcv" kind="class" prot="public">
+    <compoundname>Heyutu_OFDM_Mapper_bcv</compoundname>
+    <includes refid="Heyutu__OFDM__Mapper__bcv_8h" local="no">Heyutu_OFDM_Mapper_bcv.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1a7f88eb07cdb5487f08113affc9c9418b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; Heyutu_OFDM_Mapper_bcv::d_constellation</definition>
+        <argsstring></argsstring>
+        <name>d_constellation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="50" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1a9c8e031193bec08c9d81fb5c6379b334" prot="private" static="no" mutable="no">
+        <type>gr_msg_queue_sptr</type>
+        <definition>gr_msg_queue_sptr Heyutu_OFDM_Mapper_bcv::d_msgq</definition>
+        <argsstring></argsstring>
+        <name>d_msgq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="51" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1adf07f4a487083daa660dd92860847a62" prot="private" static="no" mutable="no">
+        <type>gr_message_sptr</type>
+        <definition>gr_message_sptr Heyutu_OFDM_Mapper_bcv::d_msg</definition>
+        <argsstring></argsstring>
+        <name>d_msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="52" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1a13d95b1222fbee61eb857a37a16a4278" prot="private" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned Heyutu_OFDM_Mapper_bcv::d_msg_offset</definition>
+        <argsstring></argsstring>
+        <name>d_msg_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="53" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1af29ab0e935936376293a26e06c32ad36" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Heyutu_OFDM_Mapper_bcv::d_eof</definition>
+        <argsstring></argsstring>
+        <name>d_eof</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="54" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1a0105490514298488a9c9e4cbb2a09f55" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Heyutu_OFDM_Mapper_bcv::d_occupied_carriers</definition>
+        <argsstring></argsstring>
+        <name>d_occupied_carriers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="56" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1a65cd7aa3043cec23e0a0cd3f45f092a9" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Heyutu_OFDM_Mapper_bcv::d_fft_length</definition>
+        <argsstring></argsstring>
+        <name>d_fft_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="57" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1a3528dac6f8d232b8d44e7de11d75480a" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Heyutu_OFDM_Mapper_bcv::d_bit_offset</definition>
+        <argsstring></argsstring>
+        <name>d_bit_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="58" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1a4335fd5e66fc31af7dd249d853430d44" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Heyutu_OFDM_Mapper_bcv::d_pending_flag</definition>
+        <argsstring></argsstring>
+        <name>d_pending_flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="59" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1aa9971bcb2b253328870589aaa01df1dc" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long Heyutu_OFDM_Mapper_bcv::d_nbits</definition>
+        <argsstring></argsstring>
+        <name>d_nbits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="61" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1a63470bcc0c94524de12c3bca756c7243" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Heyutu_OFDM_Mapper_bcv::d_msgbytes</definition>
+        <argsstring></argsstring>
+        <name>d_msgbytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="62" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1ae081791b618751a6201ef8f30c5c47cb" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Heyutu_OFDM_Mapper_bcv::d_resid</definition>
+        <argsstring></argsstring>
+        <name>d_resid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="64" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1a280398283de09b6ff53ea3890d394628" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Heyutu_OFDM_Mapper_bcv::d_nresid</definition>
+        <argsstring></argsstring>
+        <name>d_nresid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="65" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__Mapper__bcv_1a5fabce160b36f4a0fcb0c7199b1d1af9" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; Heyutu_OFDM_Mapper_bcv::d_subcarrier_map</definition>
+        <argsstring></argsstring>
+        <name>d_subcarrier_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="67" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classHeyutu__OFDM__Mapper__bcv_1a9e73978e1509a972df9636750b3b59ac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="Heyutu__OFDM__Mapper__bcv_8h_1af3d61ddbb01e2f764f2c3c3421653f19" kindref="member">Heyutu_OFDM_Mapper_bcv_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT Heyutu_OFDM_Mapper_bcv_sptr Heyutu_make_OFDM_Mapper_bcv</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;constellation, unsigned msgq_limit, unsigned occupied_carriers, unsigned int fft_length)</argsstring>
+        <name>Heyutu_make_OFDM_Mapper_bcv</name>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>constellation</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>msgq_limit</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>occupied_carriers</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>fft_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classHeyutu__OFDM__Mapper__bcv_1a1f48346a511c2dba7fff39a66b4dd103" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Heyutu_OFDM_Mapper_bcv::Heyutu_OFDM_Mapper_bcv</definition>
+        <argsstring>(const std::vector&lt; gr_complex &gt; &amp;constellation, unsigned msgq_limit, unsigned occupied_carriers, unsigned int fft_length)</argsstring>
+        <name>Heyutu_OFDM_Mapper_bcv</name>
+        <param>
+          <type>const std::vector&lt; gr_complex &gt; &amp;</type>
+          <declname>constellation</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>msgq_limit</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>occupied_carriers</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>fft_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classHeyutu__OFDM__Mapper__bcv_1aba73908ce504a3e2c791168a72dd0b18" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Heyutu_OFDM_Mapper_bcv::randsym</definition>
+        <argsstring>()</argsstring>
+        <name>randsym</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHeyutu__OFDM__Mapper__bcv_1a24b7b0b4e81641dabfbd71eacb650325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Heyutu_OFDM_Mapper_bcv::~Heyutu_OFDM_Mapper_bcv</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Heyutu_OFDM_Mapper_bcv</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classHeyutu__OFDM__Mapper__bcv_1a7633a1443cdd7a4a3d1edd02b358565c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>gr_msg_queue_sptr</type>
+        <definition>gr_msg_queue_sptr Heyutu_OFDM_Mapper_bcv::msgq</definition>
+        <argsstring>() const </argsstring>
+        <name>msgq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="74" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classHeyutu__OFDM__Mapper__bcv_1aa1c8cb2ab5d2d7ecdf90cfd7bc5eb9a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Heyutu_OFDM_Mapper_bcv::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="78"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" line="41" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_Mapper_bcv.h" bodystart="40" bodyend="79"/>
+    <listofallmembers>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a3528dac6f8d232b8d44e7de11d75480a" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_bit_offset</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a7f88eb07cdb5487f08113affc9c9418b" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_constellation</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1af29ab0e935936376293a26e06c32ad36" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_eof</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a65cd7aa3043cec23e0a0cd3f45f092a9" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_fft_length</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1adf07f4a487083daa660dd92860847a62" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_msg</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a13d95b1222fbee61eb857a37a16a4278" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_msg_offset</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a63470bcc0c94524de12c3bca756c7243" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_msgbytes</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a9c8e031193bec08c9d81fb5c6379b334" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_msgq</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1aa9971bcb2b253328870589aaa01df1dc" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_nbits</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a280398283de09b6ff53ea3890d394628" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_nresid</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a0105490514298488a9c9e4cbb2a09f55" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_occupied_carriers</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a4335fd5e66fc31af7dd249d853430d44" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_pending_flag</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1ae081791b618751a6201ef8f30c5c47cb" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_resid</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a5fabce160b36f4a0fcb0c7199b1d1af9" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>d_subcarrier_map</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a9e73978e1509a972df9636750b3b59ac" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>Heyutu_make_OFDM_Mapper_bcv</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a1f48346a511c2dba7fff39a66b4dd103" prot="protected" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>Heyutu_OFDM_Mapper_bcv</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a7633a1443cdd7a4a3d1edd02b358565c" prot="public" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>msgq</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1aba73908ce504a3e2c791168a72dd0b18" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>randsym</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1aa1c8cb2ab5d2d7ecdf90cfd7bc5eb9a6" prot="public" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>work</name></member>
+      <member refid="classHeyutu__OFDM__Mapper__bcv_1a24b7b0b4e81641dabfbd71eacb650325" prot="public" virt="non-virtual"><scope>Heyutu_OFDM_Mapper_bcv</scope><name>~Heyutu_OFDM_Mapper_bcv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

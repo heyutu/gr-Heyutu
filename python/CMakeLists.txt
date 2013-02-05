@@ -52,3 +52,5 @@ GR_ADD_TEST(qa_svZeroAdder ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_H
 GR_ADD_TEST(qa_OFDM_cyclic_deprefixer ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_Heyutu_OFDM_cyclic_deprefixer.py)
 GR_ADD_TEST(qa_svZeroAdder_inv ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_Heyutu_svZeroAdder_inv.py)
 GR_ADD_TEST(qa_OFDM_Sampler ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_Heyutu_OFDM_Sampler.py)
+GR_ADD_TEST(qa_peak_detector_fb ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_Heyutu_peak_detector_fb.py)
+GR_ADD_TEST(qa_symbol_finder_ff ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_Heyutu_symbol_finder_ff.py)

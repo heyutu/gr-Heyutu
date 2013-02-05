@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classHeyutu__dab__ofdm__sampler" kind="class" prot="public">
+    <compoundname>Heyutu_dab_ofdm_sampler</compoundname>
+    <includes refid="Heyutu__dab__ofdm__sampler_8h" local="no">Heyutu_dab_ofdm_sampler.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classHeyutu__dab__ofdm__sampler_1a464db959fb07ad68f8b9554cf04ee2ae" prot="private" static="no">
+        <name>state_t</name>
+        <enumvalue id="classHeyutu__dab__ofdm__sampler_1a464db959fb07ad68f8b9554cf04ee2aea33e7ae2a7d62078a21b14788150c4ff5" prot="private">
+          <name>STATE_NS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classHeyutu__dab__ofdm__sampler_1a464db959fb07ad68f8b9554cf04ee2aea4efe80fd8763a5b2c63b951a59b7a3f8" prot="private">
+          <name>STATE_CP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classHeyutu__dab__ofdm__sampler_1a464db959fb07ad68f8b9554cf04ee2aea5cbaa7754cef79a822eba33570da9ace" prot="private">
+          <name>STATE_SYM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="54" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHeyutu__dab__ofdm__sampler_1a63277ba6139bf3ca1fad220892bb0726" prot="private" static="no" mutable="no">
+        <type>state_t</type>
+        <definition>state_t Heyutu_dab_ofdm_sampler::d_state</definition>
+        <argsstring></argsstring>
+        <name>d_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="56" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__dab__ofdm__sampler_1a346516f436531a191b34453b951d05c3" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Heyutu_dab_ofdm_sampler::d_pos</definition>
+        <argsstring></argsstring>
+        <name>d_pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="57" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__dab__ofdm__sampler_1ae0ae111de46f737a14167e62092e5e20" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Heyutu_dab_ofdm_sampler::d_fft_length</definition>
+        <argsstring></argsstring>
+        <name>d_fft_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="58" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__dab__ofdm__sampler_1a546807dff8a37acdfdf601186f71f05e" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Heyutu_dab_ofdm_sampler::d_cp_length</definition>
+        <argsstring></argsstring>
+        <name>d_cp_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="59" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__dab__ofdm__sampler_1af68f4f20b931c5f4b2cbdde07e8d409b" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Heyutu_dab_ofdm_sampler::d_symbols_per_frame</definition>
+        <argsstring></argsstring>
+        <name>d_symbols_per_frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="60" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__dab__ofdm__sampler_1acc01cb6995bd67b2f042fb2f7e354b91" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Heyutu_dab_ofdm_sampler::d_sym_nr</definition>
+        <argsstring></argsstring>
+        <name>d_sym_nr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="61" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__dab__ofdm__sampler_1a8a1888c6e312ad706387c98975091529" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Heyutu_dab_ofdm_sampler::d_gap</definition>
+        <argsstring></argsstring>
+        <name>d_gap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="62" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__dab__ofdm__sampler_1a175b6eb275342d8f42b88d8f793d2d5f" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Heyutu_dab_ofdm_sampler::d_gap_left</definition>
+        <argsstring></argsstring>
+        <name>d_gap_left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="63" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classHeyutu__dab__ofdm__sampler_1a6b855bb827528a969eaedbdfac4d5a04" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="Heyutu__dab__ofdm__sampler_8h_1a86af875f5b095ef7cd280a8b57dcf04d" kindref="member">Heyutu_dab_ofdm_sampler_sptr</ref></type>
+        <definition>Heyutu_dab_ofdm_sampler_sptr Heyutu_dab_make_ofdm_sampler</definition>
+        <argsstring>(unsigned int fft_length, unsigned int cp_length, unsigned int symbols_per_frame, unsigned int gap)</argsstring>
+        <name>Heyutu_dab_make_ofdm_sampler</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>fft_length</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>cp_length</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>symbols_per_frame</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>gap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classHeyutu__dab__ofdm__sampler_1a8ca4cad8feb6992d4aaeb917bbc3d3b2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Heyutu_dab_ofdm_sampler::Heyutu_dab_ofdm_sampler</definition>
+        <argsstring>(unsigned int fft_length, unsigned int cp_length, unsigned int symbols_per_frame, unsigned int gap)</argsstring>
+        <name>Heyutu_dab_ofdm_sampler</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>fft_length</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>cp_length</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>symbols_per_frame</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>gap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHeyutu__dab__ofdm__sampler_1aa3294e3e507a4c8a5e098a97b5faccf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Heyutu_dab_ofdm_sampler::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classHeyutu__dab__ofdm__sampler_1a6769a7969487a2f8b98006ec4722f33a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Heyutu_dab_ofdm_sampler::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>cuts stream of DAB samples into symbol vectors </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fft_length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of the output vectors - number of samples per symbol without cyclic prefix </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cp_length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>lengith of the cyclic prefix </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>symbols_per_frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of symbols in a DAB frame, without Null symbol </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If the gap is &gt; 0, leave a gap at the end of the symbol, i.e. return some of the cyclic prefix instead of the end of the symbol</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+input: port 0: complex - actual data; port 1: byte stream with trigger signal indicating the start of a frame output: port 0: complex vectors - sampled data; port 1: byte stream with trigger signal indicating the start of a frame </para>    </detaileddescription>
+    <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" line="45" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_dab_ofdm_sampler.h" bodystart="44" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classHeyutu__dab__ofdm__sampler_1a546807dff8a37acdfdf601186f71f05e" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>d_cp_length</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1ae0ae111de46f737a14167e62092e5e20" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>d_fft_length</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1a8a1888c6e312ad706387c98975091529" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>d_gap</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1a175b6eb275342d8f42b88d8f793d2d5f" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>d_gap_left</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1a346516f436531a191b34453b951d05c3" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>d_pos</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1a63277ba6139bf3ca1fad220892bb0726" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>d_state</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1acc01cb6995bd67b2f042fb2f7e354b91" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>d_sym_nr</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1af68f4f20b931c5f4b2cbdde07e8d409b" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>d_symbols_per_frame</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1aa3294e3e507a4c8a5e098a97b5faccf3" prot="public" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>forecast</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1a6769a7969487a2f8b98006ec4722f33a" prot="public" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>general_work</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1a6b855bb827528a969eaedbdfac4d5a04" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>Heyutu_dab_make_ofdm_sampler</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1a8ca4cad8feb6992d4aaeb917bbc3d3b2" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>Heyutu_dab_ofdm_sampler</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1a464db959fb07ad68f8b9554cf04ee2aea4efe80fd8763a5b2c63b951a59b7a3f8" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>STATE_CP</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1a464db959fb07ad68f8b9554cf04ee2aea33e7ae2a7d62078a21b14788150c4ff5" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>STATE_NS</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1a464db959fb07ad68f8b9554cf04ee2aea5cbaa7754cef79a822eba33570da9ace" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>STATE_SYM</name></member>
+      <member refid="classHeyutu__dab__ofdm__sampler_1a464db959fb07ad68f8b9554cf04ee2ae" prot="private" virt="non-virtual"><scope>Heyutu_dab_ofdm_sampler</scope><name>state_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

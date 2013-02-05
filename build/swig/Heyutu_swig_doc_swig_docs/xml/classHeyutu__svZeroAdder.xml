@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classHeyutu__svZeroAdder" kind="class" prot="public">
+    <compoundname>Heyutu_svZeroAdder</compoundname>
+    <includes refid="Heyutu__svZeroAdder_8h" local="no">Heyutu_svZeroAdder.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHeyutu__svZeroAdder_1ab2bf1236e57a2acfa939871fac1fb2de" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Heyutu_svZeroAdder::d_fft_length</definition>
+        <argsstring></argsstring>
+        <name>d_fft_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_svZeroAdder.h" line="48" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_svZeroAdder.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__svZeroAdder_1ad01b4942e887466bb198ee3030f99de7" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Heyutu_svZeroAdder::d_nitems_per_block</definition>
+        <argsstring></argsstring>
+        <name>d_nitems_per_block</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_svZeroAdder.h" line="49" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_svZeroAdder.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__svZeroAdder_1adad629ce7262a1548c0262b09d32d5ff" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Heyutu_svZeroAdder::d_item_size</definition>
+        <argsstring></argsstring>
+        <name>d_item_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_svZeroAdder.h" line="50" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_svZeroAdder.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classHeyutu__svZeroAdder_1abe6331ffbafaa2c337f6bed3cccf6a4b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="Heyutu__svZeroAdder_8h_1a7b9f6fd3e14b25396ccc1792114efb4b" kindref="member">Heyutu_svZeroAdder_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT Heyutu_svZeroAdder_sptr Heyutu_make_svZeroAdder</definition>
+        <argsstring>(size_t item_size, size_t nitems_per_block, size_t fft_length)</argsstring>
+        <name>Heyutu_make_svZeroAdder</name>
+        <param>
+          <type>size_t</type>
+          <declname>item_size</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nitems_per_block</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>fft_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_svZeroAdder.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classHeyutu__svZeroAdder_1a181f01a7ac8fa87c5222d4a932255ea5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Heyutu_svZeroAdder::Heyutu_svZeroAdder</definition>
+        <argsstring>(size_t item_size, size_t nitems_per_block, size_t fft_length)</argsstring>
+        <name>Heyutu_svZeroAdder</name>
+        <param>
+          <type>size_t</type>
+          <declname>item_size</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nitems_per_block</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>fft_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_svZeroAdder.h" line="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHeyutu__svZeroAdder_1ad362a5c31e0174aa2f62e693c7bb3bc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Heyutu_svZeroAdder::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_svZeroAdder.h" line="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_svZeroAdder.h" line="37" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_svZeroAdder.h" bodystart="36" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classHeyutu__svZeroAdder_1ab2bf1236e57a2acfa939871fac1fb2de" prot="private" virt="non-virtual"><scope>Heyutu_svZeroAdder</scope><name>d_fft_length</name></member>
+      <member refid="classHeyutu__svZeroAdder_1adad629ce7262a1548c0262b09d32d5ff" prot="private" virt="non-virtual"><scope>Heyutu_svZeroAdder</scope><name>d_item_size</name></member>
+      <member refid="classHeyutu__svZeroAdder_1ad01b4942e887466bb198ee3030f99de7" prot="private" virt="non-virtual"><scope>Heyutu_svZeroAdder</scope><name>d_nitems_per_block</name></member>
+      <member refid="classHeyutu__svZeroAdder_1abe6331ffbafaa2c337f6bed3cccf6a4b" prot="private" virt="non-virtual"><scope>Heyutu_svZeroAdder</scope><name>Heyutu_make_svZeroAdder</name></member>
+      <member refid="classHeyutu__svZeroAdder_1a181f01a7ac8fa87c5222d4a932255ea5" prot="protected" virt="non-virtual"><scope>Heyutu_svZeroAdder</scope><name>Heyutu_svZeroAdder</name></member>
+      <member refid="classHeyutu__svZeroAdder_1ad362a5c31e0174aa2f62e693c7bb3bc6" prot="public" virt="non-virtual"><scope>Heyutu_svZeroAdder</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

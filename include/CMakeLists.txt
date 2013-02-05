@@ -31,6 +31,7 @@ install(FILES
     Heyutu_OFDM_cyclic_deprefixer.h
     Heyutu_svZeroAdder_inv.h
     Heyutu_OFDM_Sampler.h
-#    Heyutu_dab_ofdm_sampler.h 
-	DESTINATION include/Heyutu
+#    Heyutu_dab_ofdm_sampler.h
+    Heyutu_peak_detector_fb.h
+    Heyutu_symbol_finder_ff.h	DESTINATION include/Heyutu
 )

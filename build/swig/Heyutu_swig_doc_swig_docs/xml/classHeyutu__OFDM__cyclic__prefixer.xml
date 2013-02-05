@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classHeyutu__OFDM__cyclic__prefixer" kind="class" prot="public">
+    <compoundname>Heyutu_OFDM_cyclic_prefixer</compoundname>
+    <includes refid="Heyutu__OFDM__cyclic__prefixer_8h" local="no">Heyutu_OFDM_cyclic_prefixer.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHeyutu__OFDM__cyclic__prefixer_1ab7078388037300ee695a7aff218202a0" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Heyutu_OFDM_cyclic_prefixer::d_input_size</definition>
+        <argsstring></argsstring>
+        <name>d_input_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_cyclic_prefixer.h" line="47" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_cyclic_prefixer.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__OFDM__cyclic__prefixer_1a8147eebee9a43346442bf2cf0c8be840" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Heyutu_OFDM_cyclic_prefixer::d_output_size</definition>
+        <argsstring></argsstring>
+        <name>d_output_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_cyclic_prefixer.h" line="48" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_cyclic_prefixer.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classHeyutu__OFDM__cyclic__prefixer_1a22fe49d92ea631aad6a8b399379dfba9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="Heyutu__OFDM__cyclic__prefixer_8h_1a56242603786d4922d7abdfb47224ef30" kindref="member">Heyutu_OFDM_cyclic_prefixer_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT Heyutu_OFDM_cyclic_prefixer_sptr Heyutu_make_OFDM_cyclic_prefixer</definition>
+        <argsstring>(size_t input_size, size_t output_size)</argsstring>
+        <name>Heyutu_make_OFDM_cyclic_prefixer</name>
+        <param>
+          <type>size_t</type>
+          <declname>input_size</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>output_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_cyclic_prefixer.h" line="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classHeyutu__OFDM__cyclic__prefixer_1a1599ae5d06348749a97b536b91058684" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Heyutu_OFDM_cyclic_prefixer::Heyutu_OFDM_cyclic_prefixer</definition>
+        <argsstring>(size_t input_size, size_t output_size)</argsstring>
+        <name>Heyutu_OFDM_cyclic_prefixer</name>
+        <param>
+          <type>size_t</type>
+          <declname>input_size</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>output_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_cyclic_prefixer.h" line="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHeyutu__OFDM__cyclic__prefixer_1ab55e61289a9fe9e85593077dc808d1c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Heyutu_OFDM_cyclic_prefixer::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_cyclic_prefixer.h" line="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_cyclic_prefixer.h" line="38" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_OFDM_cyclic_prefixer.h" bodystart="37" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classHeyutu__OFDM__cyclic__prefixer_1ab7078388037300ee695a7aff218202a0" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_cyclic_prefixer</scope><name>d_input_size</name></member>
+      <member refid="classHeyutu__OFDM__cyclic__prefixer_1a8147eebee9a43346442bf2cf0c8be840" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_cyclic_prefixer</scope><name>d_output_size</name></member>
+      <member refid="classHeyutu__OFDM__cyclic__prefixer_1a22fe49d92ea631aad6a8b399379dfba9" prot="private" virt="non-virtual"><scope>Heyutu_OFDM_cyclic_prefixer</scope><name>Heyutu_make_OFDM_cyclic_prefixer</name></member>
+      <member refid="classHeyutu__OFDM__cyclic__prefixer_1a1599ae5d06348749a97b536b91058684" prot="protected" virt="non-virtual"><scope>Heyutu_OFDM_cyclic_prefixer</scope><name>Heyutu_OFDM_cyclic_prefixer</name></member>
+      <member refid="classHeyutu__OFDM__cyclic__prefixer_1ab55e61289a9fe9e85593077dc808d1c1" prot="public" virt="non-virtual"><scope>Heyutu_OFDM_cyclic_prefixer</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

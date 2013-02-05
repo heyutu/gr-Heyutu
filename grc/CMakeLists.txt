@@ -30,6 +30,7 @@ install(FILES
     Heyutu_OFDM_Sampler.xml
     Heyutu_OFDM_Sync.xml
     Heyutu_OFDM_Receiver.xml
-#    Heyutu_dab_ofdm_sampler.xml 
-    DESTINATION share/gnuradio/grc/blocks
+#    Heyutu_dab_ofdm_sampler.xml
+    Heyutu_peak_detector_fb.xml
+    Heyutu_symbol_finder_ff.xml DESTINATION share/gnuradio/grc/blocks
 )

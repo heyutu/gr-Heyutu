@@ -110,6 +110,7 @@ switch(d_state) {
 			produced--;
 			index++;
 //			consume(1, noutput_items-produced);
+			std::cout<<++y<<'\t'<<"Finding trigger ..."<<std::endl;
 		}
 		else{ 
 			std::cout<<"d_state = STATE_SYM"<<'\t'<<std::endl;

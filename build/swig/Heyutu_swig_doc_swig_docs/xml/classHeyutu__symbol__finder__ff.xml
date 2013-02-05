@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classHeyutu__symbol__finder__ff" kind="class" prot="public">
+    <compoundname>Heyutu_symbol_finder_ff</compoundname>
+    <includes refid="Heyutu__symbol__finder__ff_8h" local="no">Heyutu_symbol_finder_ff.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHeyutu__symbol__finder__ff_1a14a00042fc518ab1ebf2b13260dd8cf7" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Heyutu_symbol_finder_ff::d_fft_length</definition>
+        <argsstring></argsstring>
+        <name>d_fft_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_symbol_finder_ff.h" line="44" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_symbol_finder_ff.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__symbol__finder__ff_1af4f3200f583d44901c64ec7937d75c01" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Heyutu_symbol_finder_ff::d_cp_length</definition>
+        <argsstring></argsstring>
+        <name>d_cp_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_symbol_finder_ff.h" line="45" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_symbol_finder_ff.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classHeyutu__symbol__finder__ff_1ad68635a9360226f3a5d3320b36a8bb30" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="Heyutu__symbol__finder__ff_8h_1af121f7e6313d95102f10c45e5610c618" kindref="member">Heyutu_symbol_finder_ff_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT Heyutu_symbol_finder_ff_sptr Heyutu_make_symbol_finder_ff</definition>
+        <argsstring>(size_t fft_length, size_t cp_length)</argsstring>
+        <name>Heyutu_make_symbol_finder_ff</name>
+        <param>
+          <type>size_t</type>
+          <declname>fft_length</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>cp_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_symbol_finder_ff.h" line="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classHeyutu__symbol__finder__ff_1aaf4acd849d5188af4ad1dd4afe1a8a16" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Heyutu_symbol_finder_ff::Heyutu_symbol_finder_ff</definition>
+        <argsstring>(size_t fft_length, size_t cp_length)</argsstring>
+        <name>Heyutu_symbol_finder_ff</name>
+        <param>
+          <type>size_t</type>
+          <declname>fft_length</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>cp_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_symbol_finder_ff.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHeyutu__symbol__finder__ff_1aa00e7fc32674b81636ab5b4ac15ab46f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Heyutu_symbol_finder_ff::~Heyutu_symbol_finder_ff</definition>
+        <argsstring>()</argsstring>
+        <name>~Heyutu_symbol_finder_ff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_symbol_finder_ff.h" line="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classHeyutu__symbol__finder__ff_1a2daf77ef77d6a99f39a4cbe903798d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Heyutu_symbol_finder_ff::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_symbol_finder_ff.h" line="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_symbol_finder_ff.h" line="37" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_symbol_finder_ff.h" bodystart="36" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classHeyutu__symbol__finder__ff_1af4f3200f583d44901c64ec7937d75c01" prot="private" virt="non-virtual"><scope>Heyutu_symbol_finder_ff</scope><name>d_cp_length</name></member>
+      <member refid="classHeyutu__symbol__finder__ff_1a14a00042fc518ab1ebf2b13260dd8cf7" prot="private" virt="non-virtual"><scope>Heyutu_symbol_finder_ff</scope><name>d_fft_length</name></member>
+      <member refid="classHeyutu__symbol__finder__ff_1ad68635a9360226f3a5d3320b36a8bb30" prot="private" virt="non-virtual"><scope>Heyutu_symbol_finder_ff</scope><name>Heyutu_make_symbol_finder_ff</name></member>
+      <member refid="classHeyutu__symbol__finder__ff_1aaf4acd849d5188af4ad1dd4afe1a8a16" prot="private" virt="non-virtual"><scope>Heyutu_symbol_finder_ff</scope><name>Heyutu_symbol_finder_ff</name></member>
+      <member refid="classHeyutu__symbol__finder__ff_1a2daf77ef77d6a99f39a4cbe903798d26" prot="public" virt="non-virtual"><scope>Heyutu_symbol_finder_ff</scope><name>work</name></member>
+      <member refid="classHeyutu__symbol__finder__ff_1aa00e7fc32674b81636ab5b4ac15ab46f" prot="public" virt="non-virtual"><scope>Heyutu_symbol_finder_ff</scope><name>~Heyutu_symbol_finder_ff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

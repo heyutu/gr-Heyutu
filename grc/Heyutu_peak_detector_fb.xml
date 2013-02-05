@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<block>
+  <name>Heyutu_peak_detector_fb</name>
+  <key>Heyutu_peak_detector_fb</key>
+  <category>Heyutu</category>
+  <import>import Heyutu</import>
+  <make>Heyutu.peak_detector_fb($threshold_factor_rise, $threshold_factor_fall, $look_ahead, $alpha)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+        <param>
+          <name>TH Factor Rise</name>
+          <key>threshold_factor_rise</key>
+          <type>real</type>
+        </param>
+	<param>
+          <name>TH Factor Fall</name>
+          <key>threshold_factor_fall</key>
+          <type>real</type>
+        </param>
+        <param>
+          <name>Look Ahead</name>
+          <key>look_ahead</key>
+          <type>int</type>
+        </param>
+        <param>
+          <name>Alpha</name>
+          <key>alpha</key>
+          <type>real</type>
+        </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

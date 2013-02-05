@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classHeyutu__null__adder" kind="class" prot="public">
+    <compoundname>Heyutu_null_adder</compoundname>
+    <includes refid="Heyutu__null__adder_8h" local="no">Heyutu_null_adder.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classHeyutu__null__adder_1a64ae47f77c7e456a86a1ac088bd2ece5" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Heyutu_null_adder::d_input_size</definition>
+        <argsstring></argsstring>
+        <name>d_input_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_null_adder.h" line="46" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_null_adder.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classHeyutu__null__adder_1a15bb9a4aed29528040a58daea1dc47a0" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Heyutu_null_adder::d_output_size</definition>
+        <argsstring></argsstring>
+        <name>d_output_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_null_adder.h" line="47" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_null_adder.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classHeyutu__null__adder_1adad90dd105652d050bf3c0c06fa2f06d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend __GR_ATTR_IMPORT <ref refid="Heyutu__null__adder_8h_1a3dea3fc34285c14a9b464001614fae16" kindref="member">Heyutu_null_adder_sptr</ref></type>
+        <definition>__GR_ATTR_IMPORT Heyutu_null_adder_sptr Heyutu_make_null_adder</definition>
+        <argsstring>(size_t input_size, size_t output_size)</argsstring>
+        <name>Heyutu_make_null_adder</name>
+        <param>
+          <type>size_t</type>
+          <declname>input_size</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>output_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_null_adder.h" line="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classHeyutu__null__adder_1abdeeca09a81552d37bbaa6300690cf37" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Heyutu_null_adder::Heyutu_null_adder</definition>
+        <argsstring>(size_t input_size, size_t output_size)</argsstring>
+        <name>Heyutu_null_adder</name>
+        <param>
+          <type>size_t</type>
+          <declname>input_size</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>output_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_null_adder.h" line="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classHeyutu__null__adder_1a1064a15e19ee5e1b9ae6a598ca905099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Heyutu_null_adder::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_null_adder.h" line="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_null_adder.h" line="38" bodyfile="/media/8f69c2e0-5d53-4852-be18-edf06675b7bb/home/heyutu/Masterarbeit/gnuradio/gnuradio/gr-Heyutu/include/Heyutu_null_adder.h" bodystart="37" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classHeyutu__null__adder_1a64ae47f77c7e456a86a1ac088bd2ece5" prot="private" virt="non-virtual"><scope>Heyutu_null_adder</scope><name>d_input_size</name></member>
+      <member refid="classHeyutu__null__adder_1a15bb9a4aed29528040a58daea1dc47a0" prot="private" virt="non-virtual"><scope>Heyutu_null_adder</scope><name>d_output_size</name></member>
+      <member refid="classHeyutu__null__adder_1adad90dd105652d050bf3c0c06fa2f06d" prot="private" virt="non-virtual"><scope>Heyutu_null_adder</scope><name>Heyutu_make_null_adder</name></member>
+      <member refid="classHeyutu__null__adder_1abdeeca09a81552d37bbaa6300690cf37" prot="protected" virt="non-virtual"><scope>Heyutu_null_adder</scope><name>Heyutu_null_adder</name></member>
+      <member refid="classHeyutu__null__adder_1a1064a15e19ee5e1b9ae6a598ca905099" prot="public" virt="non-virtual"><scope>Heyutu_null_adder</scope><name>work</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
