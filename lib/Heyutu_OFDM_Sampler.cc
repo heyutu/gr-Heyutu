@@ -25,6 +25,7 @@
 
 #include <gr_io_signature.h>
 #include <Heyutu_OFDM_Sampler.h>
+#include <iostream>
 
 
 Heyutu_OFDM_Sampler_sptr
@@ -100,6 +101,8 @@ Heyutu_OFDM_Sampler::general_work (int noutput_items,
   int produced = noutput_items;
   int index = 0;
 
+//  std::cout<<"state: "<<d_state<<std::endl;
+
 switch(d_state) {
 	case (STATE_NS): {
 	  index = d_fft_length;
@@ -110,7 +113,7 @@ switch(d_state) {
 			produced--;
 			index++;
 //			consume(1, noutput_items-produced);
-			std::cout<<++y<<'\t'<<"Finding trigger ..."<<std::endl;
+//			std::cout<<++y<<'\t'<<"Finding trigger ..."<<std::endl;
 		}
 		else{ 
 			std::cout<<"d_state = STATE_SYM"<<'\t'<<std::endl;

@@ -85,8 +85,8 @@ class ofdm_sync_ml(gr.hier_block2):
         self.connect(self.c2mag,(self.diff,0))
         self.connect(self.moving_sum_filter,(self.diff,1))
 
-#	self.symbol_finder = Heyutu.symbol_finder_ff(fft_length, cp_length)
-#	self.connect(self.diff, self.symbol_finder)
+	self.symbol_finder = Heyutu.symbol_finder_ff(fft_length, cp_length)
+	self.connect(self.diff, self.symbol_finder)
 
         #ML measurements input to sampler block and detect
         #self.f2c = gr.float_to_complex()
@@ -110,6 +110,6 @@ class ofdm_sync_ml(gr.hier_block2):
         # Set output signals
         #    Output 0: timing signal
 #        self.connect(self.b2f, (self,0))
-	self.connect(self.diff, (self,0))
-#	self.connect(self.symbol_finder, (self, 0))
+#	self.connect(self.diff, (self,0))
+	self.connect(self.symbol_finder, (self, 0))
 

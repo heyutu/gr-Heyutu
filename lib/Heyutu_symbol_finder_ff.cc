@@ -24,6 +24,7 @@
 
 #include <gr_io_signature.h>
 #include <Heyutu_symbol_finder_ff.h>
+#include <iostream>
 
 
 Heyutu_symbol_finder_ff_sptr
@@ -32,6 +33,7 @@ Heyutu_make_symbol_finder_ff (size_t fft_length, size_t cp_length)
 	return Heyutu_symbol_finder_ff_sptr (new Heyutu_symbol_finder_ff (fft_length, cp_length));
 }
 
+int symbol_length;
 
 Heyutu_symbol_finder_ff::Heyutu_symbol_finder_ff (size_t fft_length, size_t cp_length)
 	: gr_sync_block ("symbol_finder_ff",
@@ -40,6 +42,7 @@ Heyutu_symbol_finder_ff::Heyutu_symbol_finder_ff (size_t fft_length, size_t cp_l
 	d_fft_length(fft_length),
 	d_cp_length(cp_length)
 {
+	symbol_length = d_cp_length + d_fft_length;
 }
 
 
@@ -48,7 +51,7 @@ Heyutu_symbol_finder_ff::~Heyutu_symbol_finder_ff ()
 }
 
 bool find = false;
-int remain = 0;
+
 int
 Heyutu_symbol_finder_ff::work (int noutput_items,
 			gr_vector_const_void_star &input_items,
@@ -59,71 +62,35 @@ Heyutu_symbol_finder_ff::work (int noutput_items,
 
   	memset(out, 0, noutput_items*sizeof(float));
 	int i = 0;
+	int j;
 	int delay = 0;
-	int sum = noutput_items;
 
-	std::cout<<"noutput_items  "<<noutput_items<<std::endl;
-
-
-	if (find && (remain != 0)){
-		i = d_fft_length + d_cp_length - remain;
-		sum = sum - remain;
-	}
-
-	std::cout<<"sum  "<<sum<<std::endl;
-
-	std::cout<<"+++++++++++++++++++++++++++"<<std::endl;
-
-	while (i < noutput_items){
-		if (find == false){
-			if (not in[i]){
-//				out[i] = 0;
-				i++;
-				sum--;
-			}
-			else{
-//				out[i] = 1;
-				find = true;
-				delay = i;
-				std::cout<<"delay   "<<delay<<std::endl;
-//				i = i + d_fft_length + d_cp_length;
-			}
-			
+	if (not find){
+//	  std::cout<<"not found !"<<std::endl;
+	  for (i=0; i<noutput_items;i++){
+		if (not in[i]){
+			delay++;
+			continue;
 		}
 		else{
-/*
-			if (((i-delay+remain)%(d_fft_length+d_cp_length))==0){
-				out[i] = 1;
-				sum = sum - d_fft_length - d_cp_length;
-			}
-			else{
-				remain = sum;
-				out[i] = 0;
-			}
-*/
-		out[i] = 1;
-		i = i + d_fft_length + d_cp_length;
-		if (sum - d_fft_length - d_cp_length >0){
-			sum = sum - d_fft_length - d_cp_length;
+			find = true;
+//			delay = i;
+//			std::cout<<"delay   "<<delay<<std::endl;
+			break;
+		}	    
+	  }
+	}
+	
+	for (j=delay; j<noutput_items; j++){
+		out[j] = 0;
+		symbol_length--;
+		if (symbol_length == 0){
+			symbol_length = d_fft_length + d_cp_length;
+			out[j]=1;
 		}
-		std::cout<<sum<<std::endl;
-		}
-
-//	out[i] = in[i];
-
-//	std::cout<<in[i]<<std::endl;
 	}
 
-	remain = sum;
-	std::cout<<"remain   "<<remain<<std::endl;
 
-/*
-  for (i=0; i<noutput_items;i++){
-     memcpy(out, in, sizeof(float));
-     out = out+sizeof(float);
-     in = in + sizeof(float);
-  }
-*/
 	// Tell runtime system how many output items we produced.
 	return noutput_items;
 }

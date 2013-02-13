@@ -47,6 +47,9 @@ class HEYUTU_API Heyutu_symbol_finder_ff : public gr_sync_block
  public:
 	~Heyutu_symbol_finder_ff ();
 
+//	size_t get_fft_length() {return d_fft_length;}
+
+//	size_t get_cp_length() {return d_cp_length;}
 
 	int work (int noutput_items,
 		gr_vector_const_void_star &input_items,
